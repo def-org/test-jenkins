@@ -12,7 +12,7 @@ pipeline {
             agent {
                 dockerfile {
                     // alwaysPull false
-                    image 'microsoft/dotnet:2.2-sdk'
+                    // image 'microsoft/dotnet:2.2-sdk'
                     // reuseNode false
                     args '-u root:root'
                 }
@@ -26,7 +26,7 @@ pipeline {
 
         }
 
-
+/*
         stage('Sock') {
 
             agent {
@@ -43,7 +43,7 @@ pipeline {
             }
 
         }
-
+*/
  
     }
     post {
